@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint \"src*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src*.{js,jsx}\" --quiet",
+    "postinstall": "chmod +x node_modules/.bin/*"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.5",
